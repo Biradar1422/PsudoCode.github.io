@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudo1</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* h1::before{
+
+            content: "Priya ";
+            background-color: cyan;
+            color: rgb(223, 174, 14);
+        }
+
+        h1::after{
+
+            content: "  Biradar  ";
+            background-color: rgb(240, 9, 9);
+            color: rgb(193, 240, 23);
+        } */
+
+        .main{
+            height: 100vh;
+            width: 100vw;
+            /* background-color: yellow; */
+            background-image: url('https://img.freepik.com/free-photo/desk-arrangement-with-monitor_23-2149073050.jpg');
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        
+        }
+
+        h1{
+            text-shadow: 3px 3px 5px gray;
+            position: relative;
+        }
+
+        .main::before{
+
+            content: "";
+            height: 100vh;
+            width: 100vw;
+            /* border: 1px solid red; */
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0,0,0,.7);
+
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+    <h1>Hello Psudo Codes</h1>
+    </div>
+</body>
+</html>
